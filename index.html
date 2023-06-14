@@ -26,7 +26,7 @@
       <div class="home-content">
         <h3>Olá, me chamo</h3>
         <h1>Nicholas Antonio</h1>
-        <h3>E sou <span>Desenvolvedor Web</span></h3>
+        <h3>Sou <span id="multiple-text"></span></h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit optio
           quos laudantium qui quisquam laboriosam recusandae quae nihil tempore
@@ -45,6 +45,9 @@
     </section>
 
     <section class="about" id="about">
+      <div class="about-img">
+        <img src="/imgs/aboutImg.png" alt="" />
+      </div>
       <div class="about-content">
         <h2 class="heading">Sobre <span>mim</span></h2>
         <h3>Desenvolvedor Web</h3>
@@ -248,26 +251,34 @@
     </section>
 
     <section class="contact" id="contact">
-        <h2 class="heading">Fale <span>Comigo!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="Email">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Telefone">
-                <input type="text" placeholder="Assunto">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-            <input type="submit" value="Enviar" class="btn">
-        </form>
+      <h2 class="heading">Fale <span>Comigo!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nome completo" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Telefone" />
+          <input type="text" placeholder="Assunto" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+        <input type="submit" value="Enviar" class="btn" />
+      </form>
     </section>
 
     <footer class="footer">
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-arrow-from-bottom' ></i></a>
-        </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-arrow-from-bottom"></i></a>
+      </div>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </body>
   <script src="./js/script.js"></script>
 </html>
