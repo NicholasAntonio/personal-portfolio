@@ -26,6 +26,8 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  width: 100vw;
+  height: 100vh;
 }
 
 section {
@@ -122,7 +124,6 @@ span {
 
 .home-content p {
   font-size: 1.6rem;
-  width: 80rem;
 }
 
 .social-media a {
@@ -431,7 +432,7 @@ small {
   .footer {
     padding: 2rem 3%;
   }
-  .skilss {
+  .skills {
     padding-bottom: 7rem;
   }
   .portfolio {
