@@ -78,7 +78,7 @@ section {
 }
 
 .home-img img {
-  width: 30vw;
+  width: 25vw;
   border-radius: 50%;
   border: 4px solid transparent;
   background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
@@ -350,46 +350,53 @@ small {
   gap: 30px;
 }
 
-.contact h2 {
-  margin-bottom: 3rem;
-}
-
-.contact form {
-  max-width: 70rem;
-  margin: 1rem auto;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.contact form .input-box {
+.contact {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--bg-color);
 }
 
-.contact form .input-box input,
-.contact form textarea {
-  width: 100%;
-  padding: 1.5rem;
+.contact img {
+  width: 35vw;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.contact-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+
+.contact-content p {
   font-size: 1.6rem;
-  color: var(--text-color);
-  background: var(--second-bg-color);
-  border-radius: 0.8rem;
-  margin: 0.7rem 0;
+  margin: 2rem 0 3rem;
 }
 
-.contact form .input-box input {
-  width: 49%;
+.contact-field i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  background: transparent;
+  font-size: 4rem;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
 }
 
-.contact form textarea {
-  resize: none;
+.contact-field p{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.contact form .btn {
-  margin-top: 2rem;
-  cursor: pointer;
-}
 .footer {
   background: var(--second-bg-color);
   display: flex;
@@ -428,9 +435,6 @@ small {
 
   section {
     padding: 10rem 3% 2rem;
-  }
-  .contact {
-    min-height: auto;
   }
   .footer {
     padding: 2rem 3%;
@@ -507,6 +511,15 @@ small {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .contact {
+    flex-direction: column-reverse;
+  }
+
+  .contact img {
+    width: 70vw;
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 617px) {
@@ -519,15 +532,11 @@ small {
   html {
     font-size: 50%;
   }
-
-  .contact form .input-box input {
-    width: 100%;
-  }
 }
 
 @media (max-width: 365px) {
   .home-img img,
-  .about-img img {
-    width: 90vw;
-  }
+  .about-img img,
+  .home-img img{  
+    width: 90vw;}
 }

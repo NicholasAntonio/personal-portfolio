@@ -45,9 +45,9 @@ ScrollReveal().reveal(
   { origin: "bottom" }
 );
 
-ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
+ScrollReveal().reveal(".home-content h1, .about-img, .contact-img", { origin: "left" });
 
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+ScrollReveal().reveal(".home-content p, .about-content , .contact-content", { origin: "right" });
 
 var typed = new Typed("#multiple-text", {
   strings: ["Desenvolvedor web", "Graduando em Ciência da Computação"],
