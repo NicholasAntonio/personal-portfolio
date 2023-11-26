@@ -1,6 +1,6 @@
 ## 🖥️ Projeto
 
-Portfólio pessoal responsivo.
+Portfólio pessoal, responsivo e atualizado constantemente com novos projetos. Buscando refatoração deste projeto em React
 
 Acesse em: https://personal-portfolio-orpin-one.vercel.app
 
